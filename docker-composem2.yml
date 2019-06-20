@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+    monitor2:
+       image: iotmonitorl1m2
+       ports:
+           - "8096:8080"
+       volumes:
+           - ./config:/tmp/config
+       network_mode: host
+       command: "monitor2 applicationm2.json ok --server.port=8096"

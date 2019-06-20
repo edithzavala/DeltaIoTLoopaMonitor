@@ -1,0 +1,1 @@
+{"monFreq":2000,"motes":["9","10","11","12","13","14","15"],"recipients":[{"id":"Analyzer","typeOfData":["ANALYZE"],"recipient": "http://localhost:8092/analyze"},{"id":"IoTNetwork","typeOfData":["ME"],"recipient": "http://localhost:8090/motes"}]}

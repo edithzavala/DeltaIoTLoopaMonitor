@@ -1,0 +1,5 @@
+FROM java:8
+VOLUME /tmp
+EXPOSE 8091
+ADD /build/libs/DeltaIoTLoopaMonitor.jar DeltaIoTLoopaMonitor.jar
+ENTRYPOINT ["java","-jar","DeltaIoTLoopaMonitor.jar"]
